@@ -1,3 +1,11 @@
 public static void AddMoneyToAccount() {
 	bankAccount.Add(money);
 }
+
+if(moneyToAdd < 0) {
+	throw new Exception("Cannot add negative money");
+}
+
+else {
+	moneyToAdd+=bankAccount;
+}
