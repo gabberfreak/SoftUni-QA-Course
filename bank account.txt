@@ -4,6 +4,7 @@ public static void AddMoneyToAccount() {
 
 if(moneyToAdd < 0) {
 	throw new Exception("Cannot add negative money");
+	console.log();
 }
 
 else {
